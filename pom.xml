@@ -11,7 +11,7 @@
 
     <name>Keycloak: Event Publisher to RabbitMQ</name>
     <properties>
-    	<keycloak.version>26.0.0</keycloak.version>
+    	<keycloak.version>26.0.7</keycloak.version>
     	<jar.finalName>${project.artifactId}-${project.version}</jar.finalName>
     </properties>
     
@@ -68,7 +68,7 @@
 		<dependency>
 		    <groupId>com.rabbitmq</groupId>
 		    <artifactId>amqp-client</artifactId>
-		    <version>5.22.0</version>
+		    <version>5.24.0</version>
 		</dependency>
         
     </dependencies>
